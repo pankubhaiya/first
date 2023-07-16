@@ -1,0 +1,42 @@
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 143, 182);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+.min-div{
+     display: flex;
+     margin: auto;
+     padding: 20px;
+     gap:20px;
+     
+}
+.min-div div{
+   
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2ms ease-in-out;
+    transition: color 0.3s;
+}
+.min-div div:hover{
+    color: black;
+}
+
+.nav-div>div:nth-child(1){
+ 
+    padding: 15px;
+    font-size: 30px;
+  
+}
+.nav-div>div:nth-child(1)>a{
+    text-decoration: none;
+}
+.mart{
+    color: rgb(8, 7, 7);
+}
+.jain{
+    color: #fff;
+}
