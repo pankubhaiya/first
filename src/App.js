@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Componets/Navbar';
 import Footer from './Componets/Footer';
 import Allroute from './Allroutes/Route';
+// import {signInGoogle}  from './firebae';
 
 function App() {
   return (

@@ -31,7 +31,7 @@ function Singledata() {
 
         (<div className="data-div-img">
             <div className="bi">
-                <h1>Total Price : $ {data.priceKey * count}</h1>
+                <h1>Total Price : $ {(data.priceKey * count).toFixed(2)}</h1>
                 {
 
                     <div className="data" key={data.id}>
