@@ -40,3 +40,45 @@
 .jain{
     color: #fff;
 }
+.btn-fillter{
+    color: #050505;
+    background-color: rgb(241, 143, 182);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2ms ease-in-out;
+    transition: color 0.3s;
+    text-align: center;
+    align-items: end;
+    display: flex;
+    margin: 10px;
+}
+.btn-div{
+
+display: flex;
+
+}
+.pagination-div{
+   
+    display: flex;
+    align-items: center;
+
+}
+.pagination{
+    color: #050505;
+    background-color: rgb(241, 143, 182);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2ms ease-in-out;
+    transition: color 0.3s;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+   
+}
+.page-main{
+justify-content: center;
+display: flex;
+}
